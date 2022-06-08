@@ -1,6 +1,6 @@
 const linksSocialMedia = {
     github: 'leolunardelli',
-    linkedin: "/in/leolunardelli",
+    youtube: "channel/UC_IIG8wJBw26fq179eztQ4w",
     facebook: "leonardo.lunardelli",
     instagram: "leo.lunardelli",
     twitter: "Llunardell1"
