@@ -1,17 +1,16 @@
 const linksSocialMedia = {
-    github: 'leolunardelli',
-    youtube: "channel/UCZdD_BphKDKuCgSS89J97uA/channels",
-    facebook: "leonardo.lunardelli",
-    instagram: "leo.lunardelli",
-    twitter: "Llunardell1"
+    github: 'https://github.com/leolunardelli',
+    instagram: 'https://www.instagram.com/leo.lunardelli',
+    linkedin: 'https://www.linkedin.com/in/leolunardelli',
+    email: 'mailto:leo.luna94@gmail.com'
 }
 
-function changeSocialMediaLinks(){
-      for (let li of socialLinks.children){
-      const social = li.getAttribute("class")
+function changeSocialMediaLinks() {
+  for (let li of socialLinks.children) {
+    const social = li.getAttribute('class')
 
-      li.children[0].href = `https://${social}.com/${linksSocialMedia[social]}`
-      }
+    li.children[0].href = `${linksSocialMedia[social]}`
+  }
 }
 
 changeSocialMediaLinks()
