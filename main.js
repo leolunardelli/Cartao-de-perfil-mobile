@@ -16,7 +16,7 @@ function changeSocialMediaLinks() {
 changeSocialMediaLinks()
 
 function getGithubProfileInfos(){
-    const url = `${linksSocialMedia.github}`
+    const url = 'https://github.com/leolunardelli'
 
     fetch(url)
     .then(response => response.json())
