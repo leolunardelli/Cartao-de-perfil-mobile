@@ -88,10 +88,10 @@ ul {
   justify-content: center;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 620px) {
   main {
     background: url(images/background-desktop.svg) no-repeat center/cover;
-    min-height: 700px;
+    min-height: 600px;
   }
 
   p {
