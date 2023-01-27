@@ -1,6 +1,5 @@
 const linksSocialMedia = {
     github: 'leolunardelli',
-    GitHubDirect: 'https://github.com/leolunardelli',
     instagram: 'https://www.instagram.com/leo.lunardelli',
     linkedin: 'https://www.linkedin.com/in/leolunardelli',
     email: 'mailto:leo.luna94@gmail.com'
