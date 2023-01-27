@@ -5,6 +5,36 @@
 
 html,
 body {
+   background: solid #000000;
+}
+
+.degrade-red {
+   position: absolute;
+   width: 1118px;
+   height: 1118px;
+   left: 1118px;
+   top: 422px;
+
+   background: radial-gradient(50% 50% at 50% 50%, #FF3D6E 0%, rgba(18, 18, 20, 0) 100%);
+   transform: rotate(-180deg);
+}
+
+.degrade-yellow {
+   box-sizing: border-box;
+
+   position: absolute;
+   width: 1118px;
+   height: 1118px;
+   left: 1440px;
+   top: 422px;
+
+   background: radial-gradient(50% 50% at 50% 50%, #FFC323 0%, rgba(18, 18, 20, 0) 100%);
+   border: 1px solid #000000;
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   transform: rotate(-180deg);
+}
+
+main {
     --black: hsl(240, 6, 13);
     --grey: hsl(240, 9%, 89%);
 
@@ -14,7 +44,7 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-main {
+.badge-container {
     background: url(images/background.svg);
     width: 375px;
     height: 812px;
