@@ -1,7 +1,7 @@
 const linksSocialMedia = {
     github: 'leolunardelli',
-    instagram: 'https://www.instagram.com/leo.lunardelli',
-    linkedin: 'https://www.linkedin.com/in/leolunardelli',
+    instagram: 'leo.lunardelli',
+    linkedin: 'in/leolunardelli',
     email: 'mailto:leo.luna94@gmail.com'
 }
 
@@ -9,7 +9,7 @@ function changeSocialMediaLinks() {
   for (let li of socialLinks.children) {
     const social = li.getAttribute('class')
 
-    li.children[0].href = `${linksSocialMedia[social]}`
+    li.children[0].href = `https://${linksSocialMedia}.com/${linksSocialMedia[social]}`
   }
 }
 
