@@ -1,5 +1,6 @@
 const linksSocialMedia = {
-    github: 'https://github.com/leolunardelli',
+    github: 'leolunardelli',
+    GitHubDirect: 'https://github.com/leolunardelli',
     instagram: 'https://www.instagram.com/leo.lunardelli',
     linkedin: 'https://www.linkedin.com/in/leolunardelli',
     email: 'mailto:leo.luna94@gmail.com'
@@ -16,7 +17,7 @@ function changeSocialMediaLinks() {
 changeSocialMediaLinks()
 
 function getGithubProfileInfos(){
-    const url = 'https://github.com/leolunardelli'
+    const url =  `https://api.github.com/users/${LinksSocialMedia.github}`
 
     fetch(url)
     .then(response => response.json())
