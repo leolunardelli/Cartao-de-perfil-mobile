@@ -9,7 +9,6 @@ body {
 
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
-  background: url(images/background-desktop.svg);
 }
 
 body {
@@ -87,4 +86,19 @@ ul {
   gap: 0.5rem;
 
   justify-content: center;
+}
+
+@media (min-width: 720px) {
+  main {
+    background: url(images/background-desktop.svg) no-repeat center/cover;
+    min-height: 700px;
+  }
+
+  p {
+    margin-top: 1rem;
+  }
+
+  ul {
+    margin-top: 1.5rem;
+  }
 }
